@@ -24,7 +24,9 @@
   }
   .screenshots .screenshots_row > div.first,
   .screenshots .screenshots_row > div.last {
-      max-width: 280px;
+      width: 100%;
+      text-align: center;
+      max-width: 100%;
   }
   .screenshots .iphone_x:before {
       width: 400px;
@@ -83,13 +85,14 @@
       display: none;
   }
   .navbar-toggler.collapsed .navbar-toggler-icon {
-      background-image: url(../icons/hamburger_icon.svg);
+      /* background-image: url(../icons/hamburger_icon.svg); */
       width: 24px;
       height: 24px;
       background-size: 24px;
   }
   .navbar-toggler .navbar-toggler-icon {
-      background-image: url(../icons/hamburger_icon_close.svg);
+      /* background-image: url(../icons/hamburger_icon_close.svg); */
+      background: blue;
       width: 21px;
       height: 21px;
       background-size: 21px;
@@ -111,7 +114,7 @@
       flex: auto;
   }
   section.hero {
-      height: 605px;
+      height: 530px;
   }
   div#main_navbar {
       position: absolute;
@@ -134,7 +137,7 @@
   }
   .screenshots_row .first,
   .screenshots_row .last {
-      display: none;
+      /* display: none; */
   }
   .screenshots .screenshots_row > div.iphone {
       margin: 0 auto;
@@ -147,7 +150,7 @@
       margin-bottom: 0;
   }
   .screenshots .screenshots_row > div.iphone {
-      height: 717px;
+      height: 530px;
   }
   .screenshots .iphone_x #screen_slider > div {
       height: 670px;
@@ -173,7 +176,7 @@
       display: none;
   }
   .main_footer {
-      height: 605px;
+      height: auto;
       margin-top: 20px;
   }
   .main_footer .download {
@@ -254,7 +257,7 @@
     
     /* background-image: url(../icons/footer_bg_mobile.svg); */
       margin-top: 80px;
-      height: 608px;
+      height: auto;
   }
   .features h2 {
       margin-top: 100px;
