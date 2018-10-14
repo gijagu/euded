@@ -140,11 +140,11 @@ nav.navbar {
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus,
 .navbar .dropdown-item:active {
-  background: #374d8e;
+  background: #E44A51;
 }
 
 .navbar .nav-link.dropdown-toggle[aria-expanded=true] {
-  background-color: #304483;
+  background-color: #E44A51;
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -213,7 +213,7 @@ nav.navbar {
 
 .hero .hero_text .btn-icon {
   color: #ffffff;
-  padding: 11px 30px;
+  padding: 11px 0 11px 30px;
 }
 
 .hero .hero_text .btn-icon:hover {
