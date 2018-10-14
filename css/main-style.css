@@ -61,6 +61,7 @@ nav.navbar {
   min-width: 135px;
   font-size: 14px;
   line-height: 28px;
+  border: 1px solid #d17966;
 }
 
 .btn-primary.btn-lg {
@@ -75,10 +76,11 @@ nav.navbar {
 .btn-primary:active,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:focus {
-  background-color: #304483;
-  border: 0;
+  background-color: #fff;
+  border: 1px solid #d17966;
   outline: none;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  color: #d17966;
 }
 
 .btn.btn-outline-primary {
@@ -162,12 +164,13 @@ nav.navbar {
 }
 
 .hero .iphones .iphone_1 {
-  background-image: url(../img/hero_iphone_1.png);
+  background-image: url(../img/app_2.png);
+
   top: 52px;
 }
 
 .hero .iphones .iphone_2 {
-  background-image: url(../img/hero_iphone_2.png);
+  background-image: url(../img/app_1.png);
   left: 144px;
 }
 
