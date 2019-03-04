@@ -10,6 +10,7 @@ body {
 
 section.section {
   float: left;
+
   width: 100%;
 }
 
@@ -160,6 +161,7 @@ nav.navbar {
   height: 738px;
   background-repeat: no-repeat;
   background-size: 100%;
+  position: absolute;
   position: absolute;
 }
 
